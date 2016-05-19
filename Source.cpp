@@ -33,7 +33,7 @@ LPCTSTR GetKeyName(LONG_PTR keyCode)
 	case 0x27: p = TEXT("Å®"); break;
 	case 0x28: p = TEXT("Å´"); break;
 	case 0x2B: p = TEXT("+"); break;
-	case 0x2C: p = TEXT("Prt Sc"); break;
+	case 0x2C: p = TEXT("Print Screen"); break;
 	case 0x2D: p = TEXT("Insert"); break;
 	case 0x2E: p = TEXT("Delete"); break;
 	case 0x30: p = TEXT("0"); break;
@@ -47,7 +47,7 @@ LPCTSTR GetKeyName(LONG_PTR keyCode)
 	case 0x38: p = TEXT("8"); break;
 	case 0x39: p = TEXT("9"); break;
 	case 0x3A: p = TEXT(":"); break;
-	case 0x3B: p = TEXT(");"); break;
+	case 0x3B: p = TEXT(";"); break;
 	case 0x3C: p = TEXT("<"); break;
 	case 0x3D: p = TEXT("="); break;
 	case 0x3E: p = TEXT(">"); break;
@@ -125,7 +125,7 @@ LPCTSTR GetKeyName(LONG_PTR keyCode)
 	case 0x90: p = TEXT("NumLock"); break;
 	case 0x91: p = TEXT("ScrollLock"); break;
 	case 0xBA: p = TEXT(":"); break;
-	case 0xBB: p = TEXT(");"); break;
+	case 0xBB: p = TEXT(";"); break;
 	case 0xBC: p = TEXT(","); break;
 	case 0xBD: p = TEXT("-"); break;
 	case 0xBE: p = TEXT("."); break;
@@ -209,13 +209,13 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 {
 	MSG msg;
 	WNDCLASS wndclass = {
-		CS_HREDRAW | CS_VREDRAW,
+		0,
 		WndProc,
 		0,
 		0,
 		hInstance,
 		0,
-		LoadCursor(0,IDC_ARROW),
+		0,
 		0,
 		0,
 		szClassName
