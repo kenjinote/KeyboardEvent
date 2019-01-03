@@ -21,17 +21,17 @@ LPCTSTR GetKeyName(LONG_PTR keyCode)
 	case 0x13: p = TEXT("Pause"); break;
 	case 0x14: p = TEXT("Caps Lock"); break;
 	case 0x1B: p = TEXT("ESC"); break;
-	case 0x1C: p = TEXT("•ÏŠ·"); break;
-	case 0x1D: p = TEXT("–³•ÏŠ·"); break;
+	case 0x1C: p = TEXT("å¤‰æ›"); break;
+	case 0x1D: p = TEXT("ç„¡å¤‰æ›"); break;
 	case 0x20: p = TEXT("Space"); break;
 	case 0x21: p = TEXT("PageUp"); break;
 	case 0x22: p = TEXT("PageDown"); break;
 	case 0x23: p = TEXT("End"); break;
 	case 0x24: p = TEXT("Home"); break;
-	case 0x25: p = TEXT("©"); break;
-	case 0x26: p = TEXT("ª"); break;
-	case 0x27: p = TEXT("¨"); break;
-	case 0x28: p = TEXT("«"); break;
+	case 0x25: p = TEXT("â†"); break;
+	case 0x26: p = TEXT("â†‘"); break;
+	case 0x27: p = TEXT("â†’"); break;
+	case 0x28: p = TEXT("â†“"); break;
 	case 0x2B: p = TEXT("+"); break;
 	case 0x2C: p = TEXT("Print Screen"); break;
 	case 0x2D: p = TEXT("Insert"); break;
@@ -79,25 +79,25 @@ LPCTSTR GetKeyName(LONG_PTR keyCode)
 	case 0x58: p = TEXT("X"); break;
 	case 0x59: p = TEXT("Y"); break;
 	case 0x5A: p = TEXT("Z"); break;
-	case 0x5B: p = TEXT("¶Win"); break;
-	case 0x5C: p = TEXT("‰EWin"); break;
+	case 0x5B: p = TEXT("å·¦Win"); break;
+	case 0x5C: p = TEXT("å³Win"); break;
 	case 0x5D: p = TEXT("Apps"); break;
-	case 0x5E: p = TEXT("ƒnƒbƒg"); break;
-	case 0x60: p = TEXT("ƒeƒ“ƒL[0"); break;
-	case 0x61: p = TEXT("ƒeƒ“ƒL[1"); break;
-	case 0x62: p = TEXT("ƒeƒ“ƒL[2"); break;
-	case 0x63: p = TEXT("ƒeƒ“ƒL[3"); break;
-	case 0x64: p = TEXT("ƒeƒ“ƒL[4"); break;
-	case 0x65: p = TEXT("ƒeƒ“ƒL[5"); break;
-	case 0x66: p = TEXT("ƒeƒ“ƒL[6"); break;
-	case 0x67: p = TEXT("ƒeƒ“ƒL[7"); break;
-	case 0x68: p = TEXT("ƒeƒ“ƒL[8"); break;
-	case 0x69: p = TEXT("ƒeƒ“ƒL[9"); break;
-	case 0x6A: p = TEXT("ƒeƒ“ƒL[*"); break;
-	case 0x6B: p = TEXT("ƒeƒ“ƒL[+"); break;
-	case 0x6D: p = TEXT("ƒeƒ“ƒL[-"); break;
-	case 0x6E: p = TEXT("ƒeƒ“ƒL[."); break;
-	case 0x6F: p = TEXT("ƒeƒ“ƒL[/"); break;
+	case 0x5E: p = TEXT("ãƒãƒƒãƒˆ"); break;
+	case 0x60: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼0"); break;
+	case 0x61: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼1"); break;
+	case 0x62: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼2"); break;
+	case 0x63: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼3"); break;
+	case 0x64: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼4"); break;
+	case 0x65: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼5"); break;
+	case 0x66: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼6"); break;
+	case 0x67: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼7"); break;
+	case 0x68: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼8"); break;
+	case 0x69: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼9"); break;
+	case 0x6A: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼*"); break;
+	case 0x6B: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼+"); break;
+	case 0x6D: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼-"); break;
+	case 0x6E: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼."); break;
+	case 0x6F: p = TEXT("ãƒ†ãƒ³ã‚­ãƒ¼/"); break;
 	case 0x70: p = TEXT("F1"); break;
 	case 0x71: p = TEXT("F2"); break;
 	case 0x72: p = TEXT("F3"); break;
@@ -113,7 +113,7 @@ LPCTSTR GetKeyName(LONG_PTR keyCode)
 	case 0x7C: p = TEXT("F13"); break;
 	case 0x7D: p = TEXT("F14"); break;
 	case 0x7E: p = TEXT("F15"); break;
-	case 0x7F: p = TEXT("F16"); break;
+	case 0x7F: p = TEXT("F16"); break;
 	case 0x80: p = TEXT("F17"); break;
 	case 0x81: p = TEXT("F18"); break;
 	case 0x82: p = TEXT("F19"); break;
@@ -136,13 +136,13 @@ LPCTSTR GetKeyName(LONG_PTR keyCode)
 	case 0xDD: p = TEXT("]"); break;
 	case 0xDE: p = TEXT("^"); break;
 	case 0xE2: p = TEXT("\\"); break;
-	case 0xF0: p = TEXT("ƒJƒ^ƒJƒi‚Ğ‚ç‚ª‚Èƒ[ƒ}š"); break;
-	case 0xF2: p = TEXT("ƒJƒ^ƒJƒi‚Ğ‚ç‚ª‚Èƒ[ƒ}š"); break;
-	case 0xF3: p = TEXT("‘SŠp”¼Šp"); break;
-	case 0xF4: p = TEXT("‘SŠp”¼Šp"); break;
+	case 0xF0: p = TEXT("ã‚«ã‚¿ã‚«ãƒŠã²ã‚‰ãŒãªãƒ­ãƒ¼ãƒå­—"); break;
+	case 0xF2: p = TEXT("ã‚«ã‚¿ã‚«ãƒŠã²ã‚‰ãŒãªãƒ­ãƒ¼ãƒå­—"); break;
+	case 0xF3: p = TEXT("å…¨è§’åŠè§’"); break;
+	case 0xF4: p = TEXT("å…¨è§’åŠè§’"); break;
 	default:
 		{
-			wsprintf(szUnknown, TEXT("•s–¾ 0x%x"), keyCode);
+			wsprintf(szUnknown, TEXT("ä¸æ˜ 0x%x"), keyCode);
 			p = szUnknown;
 		}
 		break;
@@ -223,7 +223,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInst, LPSTR pCmdLine, int 
 	RegisterClass(&wndclass);
 	HWND hWnd = CreateWindow(
 		szClassName,
-		TEXT("ƒL[ƒ{[ƒh‚ª‰Ÿ‚³‚ê‚½‚Æ‚«‚ÌƒCƒxƒ“ƒg‚ğæ“¾"),
+		TEXT("ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ãŒæŠ¼ã•ã‚ŒãŸã¨ãã®ã‚¤ãƒ™ãƒ³ãƒˆã‚’å–å¾—"),
 		WS_OVERLAPPEDWINDOW | WS_CLIPCHILDREN,
 		CW_USEDEFAULT,
 		0,
