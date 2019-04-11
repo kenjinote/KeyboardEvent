@@ -113,7 +113,7 @@ LPCTSTR GetKeyName(LONG_PTR keyCode)
 	case 0x7C: p = TEXT("F13"); break;
 	case 0x7D: p = TEXT("F14"); break;
 	case 0x7E: p = TEXT("F15"); break;
-	case 0x7F: p = TEXT("F16"); break;
+	case 0x7F: p = TEXT("F16"); break;
 	case 0x80: p = TEXT("F17"); break;
 	case 0x81: p = TEXT("F18"); break;
 	case 0x82: p = TEXT("F19"); break;
